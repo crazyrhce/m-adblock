@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# Echo to web page
+user_echo()
+{
+	echo "<User-Echo>$@"
+}
+
+install()
+{
+	mkdir /etc/m-adblock
+	cp dnslist /etc/m-adblock/dnslist
+	chmod +x m-adblock; cp m-adblock /etc/init.d/
+	/etc/init.d/m-adblock enable
+	start
+	return 0
+}
+
+uninstall()
+{
+	stop
+	/etc/init.d/m-adblock disable
+	rm /etc/init.d/m-adblock
+	rm -rf /etc/m-adblock
+}
+
+start()
+{
+	/etc/init.d/m-adblock start
+}
+
+stop()
+{
+	/etc/init.d/m-adblock stop
+}
+
+status()
+{
+	if [ -f /tmp/dnsmasq.d/m-adblock ]; then
+		echo "{ \"status\" : \"running\" }"
+	else
+		echo "{ \"status\" : \"stopped\" }"
+	fi
+}

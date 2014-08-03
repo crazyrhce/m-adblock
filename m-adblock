@@ -1,0 +1,17 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+
+start()
+{
+	cp /etc/m-adblock/dnslist /tmp/dnsmasq.d/m-adblock
+	/etc/init.d/dnsmasq reload
+	return 0
+}
+
+stop()
+{
+	rm -f /tmp/dnsmasq.d/m-adblock
+	/etc/init.d/dnsmasq reload
+}
+

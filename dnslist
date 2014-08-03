@@ -1,0 +1,89 @@
+#hiwifi block mobile ads v0.1.5
+#update 2014.06.06 by crazyrhce
+
+#block baidu ads
+address=/mobads.baidu.com/127.0.0.1
+address=/mobads-logs.baidu.com/127.0.0.1
+#block google and admob ads
+address=/media.admob.com/127.0.0.1
+address=/mob.adwhirl.com/127.0.0.1
+address=/static.googeadsserving.cn/127.0.0.1
+#block mogo ads
+address=/.adsmogo.net/127.0.0.1
+address=/.adsmogo.org/127.0.0.1
+address=/.adsmogo.mobi/127.0.0.1
+address=/imp.adsmogo.com/127.0.0.1
+address=/req.adsmogo.com/127.0.0.1
+address=/cfg.adsmogo.com/127.0.0.1
+address=/cus.adsmogo.com/127.0.0.1
+address=/api2.adsmogo.com/127.0.0.1
+#block adview ads
+address=/www.adview.cn/127.0.0.1
+address=/report.adview.cn/127.0.0.1
+#block domob ads
+address=/r.domob.cn/127.0.0.1
+address=/e.domob.cn/127.0.0.1
+address=/c.domob.cn/127.0.0.1
+address=/sm.domob.cn/127.0.0.1
+address=/scc.domob.cn/127.0.0.1
+address=/sd.domob.cn /127.0.0.1
+#block umeng ads
+address=/alog.umeng.com/127.0.0.1
+address=/alog.umeng.co/127.0.0.1
+#block adwo ads
+address=/r2.adwo.com/127.0.0.1
+address=/static.adwo.com/127.0.0.1
+#block youmi ads
+address=/banner.img.static.youmi.net/127.0.0.1
+address=/aos.gw.youmi.net/127.0.0.1
+address=/stat.gw.youmi.net/127.0.0.1
+address=/aos.wall.youmi.net/127.0.0.1
+#block yichuanmei ads
+address=/amob.acs86.com/127.0.0.1
+address=/static.acs86.com/127.0.0.1
+#block renren ads
+address=/aggregate.renren.com/127.0.0.1
+address=/interval.adbc.renren.com/127.0.0.1
+address=/wall.adbc.renren.com/127.0.0.1
+#block feiyun ads
+address=/www.admarket.mobi/127.0.0.1
+#block daqi ads
+address=/ad.airad.com/127.0.0.1
+#block vgao ads
+address=/ad.veegao.com/127.0.0.1
+#block yijifen ads
+address=/sdk.yijifen.com/127.0.0.1
+address=/res.yijifen.com/127.0.0.1
+#block mobclix ads
+address=/ads.mobclix.com/127.0.0.1
+#block adsage ads
+address=/trc.adsage.com/127.0.0.1
+address=/mobi.pubsage.com/127.0.0.1
+address=/mws.pubsage.com/127.0.0.1
+#block guohe ads
+address=/www.guohead.com/202.106.195.30
+address=/.guohead.com/127.0.0.1
+#block 9u ads
+address=/ad.9uads.com/127.0.0.1
+#block wap ads
+address=/wap.cn/127.0.0.1
+#block other ads
+address=/api.airpush.com/127.0.0.1
+address=/ad.leadboltapps.net/127.0.0.1
+address=/ad.leadbolt.net/127.0.0.1
+address=/media.mydas.mobi/127.0.0.1
+address=/lp.mydas.mobi/127.0.0.1
+address=/ads.mopub.com/127.0.0.1
+address=/.flurry.com/127.0.0.1
+address=/mbfile.ppstream.com/127.0.0.1
+address=/.mobmore.com/127.0.0.1
+address=/report.enewspaper.sagetouch.com/127.0.0.1
+address=/outfit7-affirmations.appspot.com/127.0.0.1
+address=/apps.outfit7.com/127.0.0.1
+address=/apps2.outfit7.com/127.0.0.1
+address=/i.xx.openx.com/127.0.0.1
+address=/c09.smaato.net/127.0.0.1
+
+#secret
+address=/www.facebook.com/31.13.79.112
+
